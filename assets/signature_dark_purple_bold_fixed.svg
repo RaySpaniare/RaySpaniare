@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="120"
+     viewBox="0 0 800 120"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">@RaySpaniare</title>
+  <desc id="desc">Bold dark-purple italic Times New Roman signature with separated decorative lines.</desc>
+
+  <!-- Left decorative line -->
+  <line x1="70" y1="62" x2="225" y2="62"
+        stroke="#4C1D95"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Signature text -->
+  <text x="400"
+        y="78"
+        text-anchor="middle"
+        fill="#4C1D95"
+        font-family="Times New Roman, Times, serif"
+        font-size="50"
+        font-style="italic"
+        font-weight="700">
+    @RaySpaniare
+  </text>
+
+  <!-- Right decorative line -->
+  <line x1="575" y1="62" x2="730" y2="62"
+        stroke="#4C1D95"
+        stroke-width="3"
+        stroke-linecap="round"/>
+</svg>
