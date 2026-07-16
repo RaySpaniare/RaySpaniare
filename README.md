@@ -27,10 +27,8 @@ My work combines **hydrological process knowledge**, **deep learning**, and **Ea
 - GIS, remote sensing, and large-scale geospatial data processing
 
 ## Selected Publications
-
-1. Yuan, W., Hu, S., Zhan, C. et al. A dynamic-gated Mixture-of-Experts framework improves and interprets daily streamflow simulation. *Commun Earth Environ* (2026). https://doi.org/10.1038/s43247-026-03799-z
-
-2. Yuan, W., Hu, S., Zhan, C., Wang, G. & Luo, Y. Machine learning land surface temperature downscaling method based on Landsat 9 and Sentinel-2 satellite feature interaction. *Geo-Spatial Information Science* 1–22 (2025). https://doi.org/10.1080/10095020.2025.2598526
+1. Wenrui Yuan, S. Hu, C. Zhan & Z. Lin. A dynamic-gated Mixture-of-Experts framework improves and interprets daily streamflow simulation. *Communications Earth & Environment* (2026). https://doi.org/10.1038/s43247-026-03799-z
+2. Wenrui Yuan, S. Hu, C. Zhan, G. Wang & Y. Luo. Machine learning land surface temperature downscaling method based on Landsat 9 and Sentinel-2 satellite feature interaction. *Geo-Spatial Information Science* 1–22 (2025). https://doi.org/10.1080/10095020.2025.2598526
 
 ## Featured Visualization
 
