@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="300"
+     viewBox="0 0 1200 300"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">Research Pulse</title>
+  <desc id="desc">Academic research profile card for Yuan Wenrui.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="58%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none"
+            stroke="#CBD5E1" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8"
+                    flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="296" rx="26"
+        fill="url(#bg)"
+        stroke="#334155"
+        stroke-width="2"/>
+
+  <rect x="2" y="2" width="1196" height="296" rx="26"
+        fill="url(#grid)"/>
+
+  <!-- Header -->
+  <text x="54" y="58"
+        fill="#7DD3FC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="15"
+        font-weight="700"
+        letter-spacing="4">
+    RESEARCH PULSE
+  </text>
+
+  <text x="54" y="94"
+        fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="30"
+        font-weight="750">
+    Physics-constrained hydrological intelligence
+  </text>
+
+  <text x="1070" y="63"
+        text-anchor="end"
+        fill="#A78BFA"
+        font-family="Times New Roman, Times, serif"
+        font-size="24"
+        font-style="italic"
+        font-weight="700">
+    @RaySpaniare
+  </text>
+
+  <line x1="54" y1="116" x2="1146" y2="116"
+        stroke="#334155" stroke-width="1.5"/>
+
+  <rect x="54" y="114" width="200" height="4" rx="2"
+        fill="url(#accent)"/>
+
+  <!-- Card 1 -->
+  <g filter="url(#shadow)">
+    <rect x="54" y="145" width="252" height="108" rx="18"
+          fill="#0F172A" stroke="#334155" stroke-width="1.4"/>
+  </g>
+  <circle cx="87" cy="179" r="16"
+          fill="#0EA5E9" fill-opacity="0.16"
+          stroke="#38BDF8" stroke-width="1.5"/>
+  <path d="M87 166 C82 174 78 179 78 185
+           C78 191 82 195 87 195
+           C92 195 96 191 96 185
+           C96 179 92 174 87 166Z"
+        fill="none" stroke="#38BDF8" stroke-width="2"/>
+  <text x="116" y="174"
+        fill="#94A3B8"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="1.5">
+    CURRENT FOCUS
+  </text>
+  <text x="78" y="215"
+        fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+    Physics-constrained
+  </text>
+  <text x="78" y="239"
+        fill="#CBD5E1"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16">
+    deep learning
+  </text>
+
+  <!-- Card 2 -->
+  <g filter="url(#shadow)">
+    <rect x="326" y="145" width="252" height="108" rx="18"
+          fill="#0F172A" stroke="#334155" stroke-width="1.4"/>
+  </g>
+  <circle cx="359" cy="179" r="16"
+          fill="#14B8A6" fill-opacity="0.14"
+          stroke="#2DD4BF" stroke-width="1.5"/>
+  <path d="M348 184 C355 178 361 183 367 176
+           C371 172 374 174 378 170"
+        fill="none" stroke="#2DD4BF" stroke-width="2"
+        stroke-linecap="round"/>
+  <path d="M348 189 C354 184 361 190 368 183
+           C372 180 375 182 378 179"
+        fill="none" stroke="#2DD4BF" stroke-width="2"
+        stroke-linecap="round"/>
+  <text x="388" y="174"
+        fill="#94A3B8"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="1.5">
+    RESEARCH SCALE
+  </text>
+  <text x="350" y="215"
+        fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+    Large-sample
+  </text>
+  <text x="350" y="239"
+        fill="#CBD5E1"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16">
+    hydrology
+  </text>
+
+  <!-- Card 3 -->
+  <g filter="url(#shadow)">
+    <rect x="598" y="145" width="252" height="108" rx="18"
+          fill="#0F172A" stroke="#334155" stroke-width="1.4"/>
+  </g>
+  <circle cx="631" cy="179" r="16"
+          fill="#6366F1" fill-opacity="0.15"
+          stroke="#818CF8" stroke-width="1.5"/>
+  <circle cx="625" cy="179" r="3" fill="#818CF8"/>
+  <circle cx="637" cy="171" r="3" fill="#818CF8"/>
+  <circle cx="639" cy="187" r="3" fill="#818CF8"/>
+  <line x1="628" y1="178" x2="634" y2="173"
+        stroke="#818CF8" stroke-width="1.6"/>
+  <line x1="628" y1="181" x2="636" y2="185"
+        stroke="#818CF8" stroke-width="1.6"/>
+  <text x="660" y="174"
+        fill="#94A3B8"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="1.5">
+    MODELING
+  </text>
+  <text x="622" y="215"
+        fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+    MoE · UDE · Causal
+  </text>
+  <text x="622" y="239"
+        fill="#CBD5E1"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16">
+    differentiable models
+  </text>
+
+  <!-- Card 4 -->
+  <g filter="url(#shadow)">
+    <rect x="870" y="145" width="276" height="108" rx="18"
+          fill="#0F172A" stroke="#334155" stroke-width="1.4"/>
+  </g>
+  <circle cx="903" cy="179" r="16"
+          fill="#7C3AED" fill-opacity="0.16"
+          stroke="#A78BFA" stroke-width="1.5"/>
+  <path d="M893 185 L903 171 L913 185 Z"
+        fill="none" stroke="#A78BFA" stroke-width="1.8"/>
+  <path d="M897 185 L903 177 L909 185"
+        fill="none" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="932" y="174"
+        fill="#94A3B8"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="1.5">
+    EARTH DATA
+  </text>
+  <text x="894" y="215"
+        fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+    GIS · Remote Sensing
+  </text>
+  <text x="894" y="239"
+        fill="#CBD5E1"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16">
+    geospatial pipelines
+  </text>
+
+  <!-- Footer pulse -->
+  <path d="M54 274 H205 L218 264 L230 284 L246 248
+           L262 274 H405 L420 267 L434 281 L448 258
+           L462 274 H610 L626 265 L642 282 L658 254
+           L674 274 H830 L846 267 L860 281 L876 260
+           L892 274 H1146"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-width="2.2"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        opacity="0.88"/>
+</svg>
