@@ -119,5 +119,5 @@ Physics-aware modeling for soil moisture, water-balance learning, and hydrologic
 ---
 
 <p align="center">
-  <sub>Hydrology · Physics-Informed Machine Learning · Ecohydrology · GIS · Remote Sensing</sub>
+  <img src="./assets/signature_dark_purple_bold_fixed.svg" width="360" alt="@RaySpaniare" />
 </p>
