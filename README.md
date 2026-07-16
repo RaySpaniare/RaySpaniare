@@ -12,7 +12,7 @@
   </a>
   <img src="https://img.shields.io/badge/Research-Physics--informed%20ML-f97316?style=flat-square" alt="Physics-informed machine learning" />
   <img src="https://img.shields.io/badge/Domain-GIS%20%26%20Remote%20Sensing-475569?style=flat-square" alt="GIS and Remote Sensing" />
-  <img src="https://img.shields.io/badge/Focus-Ecohydrology%20%26%20Water%20Systems-16a34a?style=flat-square" alt="Ecohydrology and water systems" />
+  <img src="https://img.shields.io/badge/Focus-Physical%20Geography-0f766e?style=flat-square" alt="Physical Geography" />
 </p>
 
 ## About
