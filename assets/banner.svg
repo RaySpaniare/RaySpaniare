@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yuan Wenrui — Hydrology and Physics-Informed AI</title>
+  <desc id="desc">A dark scientific banner with topographic contours, a river network, and research topics.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080b10"/>
+      <stop offset="55%" stop-color="#101722"/>
+      <stop offset="100%" stop-color="#15100d"/>
+    </linearGradient>
+
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="70%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <ellipse cx="220" cy="170" rx="350" ry="290" fill="url(#glowBlue)"/>
+  <ellipse cx="1040" cy="120" rx="310" ry="240" fill="url(#glowOrange)"/>
+
+  <!-- Topographic contours -->
+  <g fill="none" stroke="#cbd5e1" stroke-opacity="0.075" stroke-width="1.2">
+    <path d="M-30 275 C80 208 142 312 255 240 S455 164 544 232 723 321 826 245 1024 150 1230 212"/>
+    <path d="M-40 296 C67 232 157 329 272 260 S455 190 555 254 734 343 842 268 1031 176 1234 232"/>
+    <path d="M-45 317 C74 258 168 347 286 282 S468 215 570 277 751 359 860 291 1045 205 1239 253"/>
+    <path d="M729 -25 C765 52 842 23 875 91 S899 202 990 202 1078 136 1231 164"/>
+    <path d="M750 -40 C787 31 854 5 898 70 S927 180 1013 178 1100 116 1238 143"/>
+    <path d="M780 -48 C811 15 872 -9 922 47 S961 151 1037 153 1124 99 1246 122"/>
+  </g>
+
+  <!-- River / neural routing path -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M675 320 C713 285 713 245 757 223 C806 198 824 233 865 198 C909 160 890 115 949 92 C995 74 1032 102 1085 58"
+          stroke="#0f172a" stroke-width="15" stroke-opacity="0.65"/>
+    <path d="M675 320 C713 285 713 245 757 223 C806 198 824 233 865 198 C909 160 890 115 949 92 C995 74 1032 102 1085 58"
+          stroke="url(#river)" stroke-width="5.5" filter="url(#softGlow)"/>
+    <path d="M758 223 C741 185 714 169 683 144" stroke="#38bdf8" stroke-opacity="0.8" stroke-width="2.5"/>
+    <path d="M866 198 C886 218 906 245 913 279" stroke="#22d3ee" stroke-opacity="0.75" stroke-width="2.5"/>
+    <path d="M949 92 C927 65 916 42 917 14" stroke="#fb923c" stroke-opacity="0.75" stroke-width="2.5"/>
+  </g>
+
+  <!-- Nodes -->
+  <g>
+    <circle cx="675" cy="320" r="6" fill="#38bdf8"/>
+    <circle cx="757" cy="223" r="7" fill="#22d3ee"/>
+    <circle cx="865" cy="198" r="7" fill="#22d3ee"/>
+    <circle cx="949" cy="92" r="7" fill="#fb923c"/>
+    <circle cx="1085" cy="58" r="6" fill="#fb923c"/>
+    <circle cx="683" cy="144" r="4" fill="#38bdf8"/>
+    <circle cx="913" cy="279" r="4" fill="#22d3ee"/>
+    <circle cx="917" cy="14" r="4" fill="#fb923c"/>
+  </g>
+
+  <!-- Identity -->
+  <text x="62" y="60" fill="#7dd3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3.2">
+    RAYSPANIARE / RESEARCH PROFILE
+  </text>
+
+  <text x="58" y="137" fill="url(#titleGrad)" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="57" font-weight="800" letter-spacing="1.2">
+    YUAN WENRUI
+  </text>
+
+  <text x="62" y="184" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="24" font-weight="500">
+    Hydrology × Physics-Informed AI
+  </text>
+
+  <text x="62" y="221" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="16">
+    Interpretable models for streamflow, soil moisture and ecohydrological systems
+  </text>
+
+  <!-- Topic chips -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.8">
+    <rect x="62" y="260" width="138" height="35" rx="17.5" fill="#0ea5e9" fill-opacity="0.13" stroke="#38bdf8" stroke-opacity="0.45"/>
+    <text x="86" y="282" fill="#bae6fd">STREAMFLOW</text>
+
+    <rect x="214" y="260" width="151" height="35" rx="17.5" fill="#06b6d4" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.42"/>
+    <text x="237" y="282" fill="#a5f3fc">SOIL MOISTURE</text>
+
+    <rect x="379" y="260" width="167" height="35" rx="17.5" fill="#f97316" fill-opacity="0.10" stroke="#fb923c" stroke-opacity="0.40"/>
+    <text x="402" y="282" fill="#fed7aa">ECOHYDROLOGY</text>
+
+    <rect x="560" y="260" width="190" height="35" rx="17.5" fill="#64748b" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.35"/>
+    <text x="581" y="282" fill="#cbd5e1">GIS &amp; REMOTE SENSING</text>
+  </g>
+
+  <!-- Scientific annotation -->
+  <g font-family="JetBrains Mono,Consolas,monospace">
+    <text x="914" y="310" fill="#94a3b8" font-size="12">physics prior</text>
+    <text x="1006" y="310" fill="#fb923c" font-size="12">→</text>
+    <text x="1028" y="310" fill="#cbd5e1" font-size="12">dynamic routing</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="25" fill="none" stroke="#e2e8f0" stroke-opacity="0.08"/>
+</svg>
