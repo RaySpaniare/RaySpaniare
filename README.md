@@ -124,14 +124,15 @@ Physics-aware modeling for soil moisture, water-balance learning, and hydrologic
   <img src="https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS" />
 </p>
 
-## GitHub Activity
+## Research Pulse
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RaySpaniare&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaySpaniare&layout=compact&langs_count=6&hide_border=true&theme=transparent" alt="Most used languages" />
+  <img
+    src="./assets/research_pulse.svg"
+    width="100%"
+    alt="Research Pulse — Yuan Wenrui"
+  />
 </p>
-
----
 
 <p align="center">
   <img src="./assets/signature_dark_purple_bold_fixed.svg" width="360" alt="@RaySpaniare" />
