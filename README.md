@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Yuan Wenrui - Hydrology and Physics-Informed AI" />
+  <img src="./assets/RaySpaniare_banner_IGSNRR_logo_exact_clean.png" width="100%" alt="Yuan Wenrui - Hydrology and Physics-Informed AI" />
 </div>
 
 <p align="center">
