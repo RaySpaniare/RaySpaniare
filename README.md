@@ -32,6 +32,26 @@ My work combines **hydrological process knowledge**, **deep learning**, and **Ea
 
 2. Yuan, W., Hu, S., Zhan, C., Wang, G. & Luo, Y. Machine learning land surface temperature downscaling method based on Landsat 9 and Sentinel-2 satellite feature interaction. *Geo-Spatial Information Science* 1–22 (2025). https://doi.org/10.1080/10095020.2025.2598526
 
+## Featured Visualization
+
+<p align="center">
+  <a href="./assets/figures/evaporation_US_2024_full_web.jpg">
+    <img
+      src="./assets/figures/evaporation_US_2024_preview.jpg"
+      width="92%"
+      alt="Spatial patterns of actual evaporation across the conterminous United States in 2024"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    <b>Spatial patterns of actual evaporation across the conterminous United States in 2024.</b>
+    The main map presents the annual mean, while panels a–c show the monthly means for January, February, and March derived from GLEAM4.2.
+    Click the figure to view the full-resolution version.
+  </sub>
+</p>
+
 ## Research Map
 
 <table>
