@@ -45,12 +45,7 @@ My work combines **hydrological process knowledge**, **deep learning**, and **Ea
 </p>
 
 <p align="center">
-  <sub>
-    <b>Spatial patterns of actual evaporation across the conterminous United States in 2024.</b>
-    The main map presents the annual mean, while panels a–c show the monthly means for January, February, and March derived from GLEAM4.2.
-    Click the figure to view the full-resolution version.
-  </sub>
-</p>
+ 
 
 ## Research Map
 
