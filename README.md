@@ -27,7 +27,7 @@ My work combines **hydrological process knowledge**, **deep learning**, and **Ea
 - GIS, remote sensing, and large-scale geospatial data processing
 
 ## Selected Publications
-1. Wenrui Yuan, S. Hu, C. Zhan & Z. Lin. A dynamic-gated Mixture-of-Experts framework improves and interprets daily streamflow simulation. Communications Earth & Environment (2026). https://doi.org/10.1038/s43247-026-03799-z
+1. ##Wenrui Yuan##, S. Hu, C. Zhan & Z. Lin. A dynamic-gated Mixture-of-Experts framework improves and interprets daily streamflow simulation. Communications Earth & Environment (2026). https://doi.org/10.1038/s43247-026-03799-z
 2. Wenrui Yuan, S. Hu, C. Du & C. Zhan. Emergence of macroscopic hydraulic behaviors from data: a hybrid physics-AI universal differential equation framework for spatio-temporal soil moisture dynamics. Journal of Hydrology, 136417 (2026). https://doi.org/10.1016/j.jhydrol.2026.136417
 3. Wenrui Yuan, S. Hu, C. Zhan, G. Wang & Y. Luo. Machine learning land surface temperature downscaling method based on Landsat 9 and Sentinel-2 satellite feature interaction. Geo-Spatial Information Science 1–22 (2025). https://doi.org/10.1080/10095020.2025.2598526
 
